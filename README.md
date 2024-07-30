@@ -1,16 +1,18 @@
 # NTDIS CRACKER
-Herramienta para automatizar el proceso de NTLM hash cracking y despliegue de resultados
+Herramienta para automatizar el proceso de NTLM hash cracking y despliegue de resultados.
 ## Requisitos
-- Debe tener instalada la herramienta **hashcat**. Distribuciones como Kali Linux y Parrot OS ya la traen por defecto. Link oficial de hashcat: https://hashcat.net/hashcat/
+- Debe tener instaladas las herramientas **hashcat** y **python3**. Distribuciones como Kali Linux y Parrot OS ya las traen por defecto.
+    - Link de descarga de hashcat: https://hashcat.net/hashcat/
+    - Link de descarga de python3: https://www.python.org/downloads/
 - Debe tener a mano un archivo de hashes con el siguiente formato:
 ```
 <usuario>:<RID>:<LM hash>:<NT hash>:::
 ```
-Donde:
+**Donde:**
 - **Usuario:** nombre de usuario de Active Directory
 - **RID:** Relative Identifier, un identificador único para cada usuario dentro de un dominio.
-- **LM Hash**
-- **NT Hash**
+- **LM hash**: hash de LAN Manager (LM). Aunque obsoleto y menos seguro, todavía puede estar presente en algunos sistemas.
+- **NT hash**: hash NT, que es más seguro que el hash LM y se utiliza comúnmente para la autenticación en sistemas Windows.
 
 ### Ejemplo
 ![image](https://github.com/user-attachments/assets/f8562174-cb7e-4e4d-a2c1-47d26014411c)
