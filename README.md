@@ -14,7 +14,7 @@ Herramienta para automatizar el proceso de NTLM hash cracking y despliegue de su
 - **LM hash**: hash de LAN Manager (LM). Aunque obsoleto y menos seguro, todavía puede estar presente en algunos sistemas.
 - **NT hash**: hash NT, que es más seguro que el hash LM y se utiliza comúnmente para la autenticación en sistemas Windows.
 
-### Ejemplo
+### Ejemplo de archivos de hashes
 ![image](https://github.com/user-attachments/assets/f8562174-cb7e-4e4d-a2c1-47d26014411c)
 
 ## Instalación
