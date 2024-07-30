@@ -2,6 +2,8 @@
 Herramienta para automatizar el proceso de NTLM hash cracking y despliegue de resultados
 ## Requisitos
 Debe tener instalada la herramienta **hashcat**. Distribuciones como Kali Linux y Parrot OS ya la traen por defecto.
+
+Link oficial de hashcat: https://hashcat.net/hashcat/
 ## Instalación
 ```
 git clone https://github.com/julsanabf/ntdis-cracker
