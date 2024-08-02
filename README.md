@@ -26,7 +26,7 @@ chmod +x ntdscrackedit.py
 ## Ejecución
 ### Menú de ayuda
 ```
-ntdis-cracker.py [-h] -i INPUTFILE [-w WORDLIST] [-o OUTPUTFILE]
+ntdscrackedit.py [-h] -i INPUTFILE [-w WORDLIST] [-o OUTPUTFILE]
 options:
   -h, --help            Muestra el menú de ayuda
   -i INPUTFILE, --inputfile    Define la ruta del archivo que contiene los hashes NTLM extraídos de NTDS.DIT
