@@ -19,9 +19,9 @@ Herramienta para automatizar el proceso de NTLM hash cracking y despliegue de su
 
 ## Instalación
 ```
-git clone https://github.com/julsanabf/ntdis-cracker
-cd ntdis-cracker
-chmod +x ntdis-cracker.py
+git clone https://github.com/julsanabf/ntdscrackedit
+cd ntdscrackedit
+chmod +x ntdscrackedit.py
 ```
 ## Ejecución
 ### Menú de ayuda
@@ -29,7 +29,7 @@ chmod +x ntdis-cracker.py
 ntdis-cracker.py [-h] -i INPUTFILE [-w WORDLIST] [-o OUTPUTFILE]
 options:
   -h, --help            Muestra el menú de ayuda
-  -i INPUTFILE, --inputfile    Define la ruta del archivo que contiene los hashes NTLM extraídos de NTDIS.DIT
+  -i INPUTFILE, --inputfile    Define la ruta del archivo que contiene los hashes NTLM extraídos de NTDS.DIT
                         Ejemplo: -i /path/to/hashesfile.txt
   -w WORDLIST, --wordlist    Define la ruta del diccionario de contraseñas a utilizar para crackear los hashes
                         Ejemplo: -w /path/to/wordlist.txt. Por defecto se utiliza /usr/share/wordlists/rockyou.txt
