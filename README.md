@@ -1,4 +1,4 @@
-# NTDIS CRACKER
+# NTDSCrackeDIT
 Herramienta para automatizar el proceso de NTLM hash cracking y despliegue de sus resultados.
 ## Requisitos
 - Debe tener instaladas las herramientas **hashcat** y **python3**. Distribuciones como Kali Linux y Parrot OS ya las traen por defecto.
@@ -37,4 +37,4 @@ options:
                         Ejemplo: -o /path/to/results.txt. Por defecto se utiliza results.txt
 ```
 ### Screenshot
-![image](https://github.com/user-attachments/assets/dc26ba06-4c31-4db8-b970-1ef99147df5b)
+![image](https://github.com/user-attachments/assets/86e3975f-0b2d-4af2-836e-85101a747a5a)
